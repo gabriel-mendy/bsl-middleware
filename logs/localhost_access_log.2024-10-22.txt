@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [22/Oct/2024:00:42:35 +0000] "POST /InstantPaymentBridge/InstantPaymentsListener HTTP/1.1" 504 147
+0:0:0:0:0:0:0:1 - - [22/Oct/2024:00:46:29 +0000] "POST /InstantPaymentBridge/InstantPaymentsListener HTTP/1.1" 504 147
+0:0:0:0:0:0:0:1 - - [22/Oct/2024:00:47:36 +0000] "POST /InstantPaymentBridge/InstantPaymentsListener HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [22/Oct/2024:00:50:31 +0000] "POST /InstantPaymentBridge/InstantPaymentsListener HTTP/1.1" 200 3739
+0:0:0:0:0:0:0:1 - - [22/Oct/2024:01:23:57 +0000] "POST /InstantPaymentBridge/InstantPaymentsListener HTTP/1.1" 200 3739
+0:0:0:0:0:0:0:1 - - [22/Oct/2024:01:34:19 +0000] "POST /InstantPaymentBridge/InstantPaymentsListener HTTP/1.1" 200 3739

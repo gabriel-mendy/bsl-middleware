@@ -1,0 +1,54 @@
+08-Nov-2024 16:58:53.071 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 16:58:53.087 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 16:58:53.088 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 16:58:53.089 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 16:58:53.091 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 16:58:53.152 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /favicon.ico HTTP/1.1] received
+08-Nov-2024 16:58:53.153 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 16:58:53.153 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /favicon.ico HTTP/1.1] received
+08-Nov-2024 16:58:53.154 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 16:58:53.154 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /favicon.ico HTTP/1.1] received
+08-Nov-2024 16:58:53.154 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /favicon.ico HTTP/1.1] received
+08-Nov-2024 17:00:06.590 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:00:06.592 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:00:06.592 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:00:06.593 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:00:06.596 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:00:06.689 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon.png HTTP/1.1] received
+08-Nov-2024 17:00:06.691 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:00:16.700 WARNING [main] org.apache.catalina.core.StandardServer.await An IO exception occurred trying to read the shutdown command
+	java.net.SocketTimeoutException: Read timed out
+		at java.net.SocketInputStream.socketRead0(Native Method)
+		at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+		at java.net.SocketInputStream.read(SocketInputStream.java:171)
+		at java.net.SocketInputStream.read(SocketInputStream.java:141)
+		at java.net.SocketInputStream.read(SocketInputStream.java:224)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:597)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+08-Nov-2024 17:00:16.711 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+08-Nov-2024 17:00:16.711 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:00:16.715 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /favicon.ico HTTP/1.1] received
+08-Nov-2024 17:00:16.717 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:00:16.719 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /favicon.ico HTTP/1.1] received
+08-Nov-2024 17:28:24.765 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:28:24.775 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:28:24.777 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:28:24.779 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:28:24.782 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:28:24.864 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /favicon.ico HTTP/1.1] received
+08-Nov-2024 17:28:24.864 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:28:24.865 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:28:59.557 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:28:59.557 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:28:59.561 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:28:59.561 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:28:59.562 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /apple-touch-icon-precomposed.png HTTP/1.1] received
+08-Nov-2024 17:28:59.562 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+08-Nov-2024 17:28:59.565 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received

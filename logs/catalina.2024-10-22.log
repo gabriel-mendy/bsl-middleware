@@ -1,0 +1,307 @@
+22-Oct-2024 00:38:59.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+22-Oct-2024 00:38:59.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+22-Oct-2024 00:38:59.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+22-Oct-2024 00:38:59.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Oct-2024 00:38:59.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.0
+22-Oct-2024 00:38:59.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+22-Oct-2024 00:38:59.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/nyuma1629078/Library/Java/JavaVirtualMachines/corretto-1.8.0_422/Contents/Home/jre
+22-Oct-2024 00:38:59.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Oct-2024 00:38:59.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Oct-2024 00:38:59.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:38:59.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:38:59.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:38:59.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:38:59.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/temp
+22-Oct-2024 00:38:59.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/logging.properties
+22-Oct-2024 00:38:59.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2024 00:38:59.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61799:/Applications/IntelliJ IDEA.app/Contents/bin
+22-Oct-2024 00:38:59.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Oct-2024 00:38:59.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/nyuma1629078/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Oct-2024 00:38:59.196 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:38:59.211 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [304] milliseconds
+22-Oct-2024 00:38:59.229 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Oct-2024 00:38:59.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+22-Oct-2024 00:38:59.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml]
+22-Oct-2024 00:38:59.853 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 00:38:59.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml] has finished in [633] ms
+22-Oct-2024 00:38:59.869 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:38:59.875 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [663] milliseconds
+22-Oct-2024 00:40:25.394 INFO [http-nio-8080-exec-2] org.apache.http.impl.client.DefaultHttpClient.tryConnect I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.10.177:9001: Network is unreachable (connect failed)
+22-Oct-2024 00:40:25.394 INFO [http-nio-8080-exec-2] org.apache.http.impl.client.DefaultHttpClient.tryConnect Retrying connect to {}->http://172.16.10.177:9001
+22-Oct-2024 00:41:02.122 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:41:02.124 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Oct-2024 00:41:02.125 INFO [Thread-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [InstantPaymentsListener]
+22-Oct-2024 00:41:03.169 INFO [Thread-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [InstantPaymentsListener]
+22-Oct-2024 00:41:04.204 INFO [Thread-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [InstantPaymentsListener]
+22-Oct-2024 00:41:04.322 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [InstantPaymentBridge] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+ java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+ java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+ java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.net.Socket.connect(Socket.java:607)
+ org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+ org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+ org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+ org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+ org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+ org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+ org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+ org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+ org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+ com.example.InstantPaymentBridge.CertificateMessage.SendMessage(CertificateMessage.java:52)
+ com.example.InstantPaymentBridge.CertificateMessage.getCertificate(CertificateMessage.java:23)
+ com.example.InstantPaymentBridge.InstantPaymentsListener.doPost(InstantPaymentsListener.java:147)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+ java.lang.Thread.run(Thread.java:750)]
+22-Oct-2024 00:41:04.329 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:41:09.341 WARNING [Thread-2] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+22-Oct-2024 00:41:09.345 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:41:11.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.0
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/nyuma1629078/Library/Java/JavaVirtualMachines/corretto-1.8.0_422/Contents/Home/jre
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:41:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:41:11.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:41:11.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:41:11.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/temp
+22-Oct-2024 00:41:11.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/logging.properties
+22-Oct-2024 00:41:11.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2024 00:41:11.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61859:/Applications/IntelliJ IDEA.app/Contents/bin
+22-Oct-2024 00:41:11.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Oct-2024 00:41:11.724 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/nyuma1629078/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Oct-2024 00:41:11.883 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:41:11.898 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [261] milliseconds
+22-Oct-2024 00:41:11.915 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Oct-2024 00:41:11.915 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+22-Oct-2024 00:41:11.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml]
+22-Oct-2024 00:41:12.521 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 00:41:12.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml] has finished in [614] ms
+22-Oct-2024 00:41:12.535 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:41:12.541 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [642] milliseconds
+22-Oct-2024 00:43:49.763 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:43:49.765 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Oct-2024 00:43:49.774 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:43:49.776 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:43:53.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.0
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/nyuma1629078/Library/Java/JavaVirtualMachines/corretto-1.8.0_422/Contents/Home/jre
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:43:53.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:43:53.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:43:53.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:43:53.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/temp
+22-Oct-2024 00:43:53.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/logging.properties
+22-Oct-2024 00:43:53.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2024 00:43:53.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61932:/Applications/IntelliJ IDEA.app/Contents/bin
+22-Oct-2024 00:43:53.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Oct-2024 00:43:53.588 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/nyuma1629078/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Oct-2024 00:43:53.757 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:43:53.772 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [270] milliseconds
+22-Oct-2024 00:43:53.789 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Oct-2024 00:43:53.789 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+22-Oct-2024 00:43:53.792 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml]
+22-Oct-2024 00:43:54.387 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 00:43:54.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml] has finished in [608] ms
+22-Oct-2024 00:43:54.401 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:43:54.407 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [634] milliseconds
+22-Oct-2024 00:45:14.065 INFO [http-nio-8080-exec-1] org.apache.http.impl.client.DefaultHttpClient.tryConnect I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.10.177:9001: Network is unreachable (connect failed)
+22-Oct-2024 00:45:14.065 INFO [http-nio-8080-exec-1] org.apache.http.impl.client.DefaultHttpClient.tryConnect Retrying connect to {}->http://172.16.10.177:9001
+22-Oct-2024 00:47:27.556 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:47:27.559 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Oct-2024 00:47:27.568 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:47:27.570 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:47:31.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+22-Oct-2024 00:47:31.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.0
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/nyuma1629078/Library/Java/JavaVirtualMachines/corretto-1.8.0_422/Contents/Home/jre
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:47:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:47:31.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:47:31.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:47:31.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/temp
+22-Oct-2024 00:47:31.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/logging.properties
+22-Oct-2024 00:47:31.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2024 00:47:31.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62032:/Applications/IntelliJ IDEA.app/Contents/bin
+22-Oct-2024 00:47:31.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Oct-2024 00:47:31.121 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/nyuma1629078/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Oct-2024 00:47:31.288 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:47:31.306 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [287] milliseconds
+22-Oct-2024 00:47:31.323 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Oct-2024 00:47:31.324 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+22-Oct-2024 00:47:31.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml]
+22-Oct-2024 00:47:31.946 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 00:47:31.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml] has finished in [629] ms
+22-Oct-2024 00:47:31.960 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:47:31.967 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [660] milliseconds
+22-Oct-2024 00:49:12.869 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:49:12.872 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Oct-2024 00:49:12.880 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:49:12.882 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:49:16.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.0
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/nyuma1629078/Library/Java/JavaVirtualMachines/corretto-1.8.0_422/Contents/Home/jre
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:49:16.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:49:16.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:49:16.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:49:16.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/temp
+22-Oct-2024 00:49:16.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/logging.properties
+22-Oct-2024 00:49:16.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2024 00:49:16.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62073:/Applications/IntelliJ IDEA.app/Contents/bin
+22-Oct-2024 00:49:16.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Oct-2024 00:49:16.457 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/nyuma1629078/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Oct-2024 00:49:16.620 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:49:16.638 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [268] milliseconds
+22-Oct-2024 00:49:16.657 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Oct-2024 00:49:16.657 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+22-Oct-2024 00:49:16.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml]
+22-Oct-2024 00:49:17.256 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 00:49:17.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml] has finished in [606] ms
+22-Oct-2024 00:49:17.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:49:17.276 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [638] milliseconds
+22-Oct-2024 00:50:22.668 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:50:22.673 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Oct-2024 00:50:22.681 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:50:22.684 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:50:25.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.0
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/nyuma1629078/Library/Java/JavaVirtualMachines/corretto-1.8.0_422/Contents/Home/jre
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:50:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:50:25.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 00:50:25.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 00:50:25.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/temp
+22-Oct-2024 00:50:25.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/logging.properties
+22-Oct-2024 00:50:25.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2024 00:50:25.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62107:/Applications/IntelliJ IDEA.app/Contents/bin
+22-Oct-2024 00:50:25.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Oct-2024 00:50:25.285 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/nyuma1629078/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Oct-2024 00:50:25.452 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:50:25.467 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [276] milliseconds
+22-Oct-2024 00:50:25.484 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Oct-2024 00:50:25.484 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+22-Oct-2024 00:50:25.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml]
+22-Oct-2024 00:50:26.123 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 00:50:26.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml] has finished in [648] ms
+22-Oct-2024 00:50:26.139 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 00:50:26.146 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [678] milliseconds
+22-Oct-2024 01:00:06.643 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:00:06.646 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Oct-2024 01:00:06.656 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:00:06.659 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:00:11.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.0
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/nyuma1629078/Library/Java/JavaVirtualMachines/corretto-1.8.0_422/Contents/Home/jre
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Oct-2024 01:00:11.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 01:00:11.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 01:00:11.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 01:00:11.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 01:00:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/temp
+22-Oct-2024 01:00:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/logging.properties
+22-Oct-2024 01:00:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2024 01:00:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62162:/Applications/IntelliJ IDEA.app/Contents/bin
+22-Oct-2024 01:00:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Oct-2024 01:00:11.906 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/nyuma1629078/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Oct-2024 01:00:12.084 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:00:12.103 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [295] milliseconds
+22-Oct-2024 01:00:12.122 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Oct-2024 01:00:12.122 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+22-Oct-2024 01:00:12.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml]
+22-Oct-2024 01:00:12.764 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 01:00:12.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml] has finished in [651] ms
+22-Oct-2024 01:00:12.780 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:00:12.786 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [683] milliseconds
+22-Oct-2024 01:23:23.740 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/InstantPaymentBridge]
+22-Oct-2024 01:23:23.741 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/InstantPaymentBridge] has started
+22-Oct-2024 01:23:24.273 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 01:23:24.277 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/InstantPaymentBridge] is completed
+22-Oct-2024 01:23:46.323 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:23:46.329 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Oct-2024 01:23:46.341 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:23:46.356 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:23:49.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.0
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/nyuma1629078/Library/Java/JavaVirtualMachines/corretto-1.8.0_422/Contents/Home/jre
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 01:23:49.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 01:23:49.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/nyuma1629078/Downloads/apache-tomcat-9.0.89
+22-Oct-2024 01:23:49.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge
+22-Oct-2024 01:23:49.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/temp
+22-Oct-2024 01:23:49.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/logging.properties
+22-Oct-2024 01:23:49.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2024 01:23:49.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62265:/Applications/IntelliJ IDEA.app/Contents/bin
+22-Oct-2024 01:23:49.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Oct-2024 01:23:49.024 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/nyuma1629078/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Oct-2024 01:23:49.194 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:23:49.212 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [288] milliseconds
+22-Oct-2024 01:23:49.231 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Oct-2024 01:23:49.231 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+22-Oct-2024 01:23:49.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml]
+22-Oct-2024 01:23:49.883 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2024 01:23:49.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/nyuma1629078/Documents/OSL/2024/Projects/National_Switch/project/InstantPaymentBridge/conf/Catalina/localhost/InstantPaymentBridge.xml] has finished in [661] ms
+22-Oct-2024 01:23:49.898 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Oct-2024 01:23:49.906 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [693] milliseconds

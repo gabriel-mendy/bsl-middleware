@@ -1,0 +1,8 @@
+05-Nov-2024 11:22:47.355 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/InstantPaymentBridge]
+05-Nov-2024 11:22:47.374 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/InstantPaymentBridge] has started
+05-Nov-2024 11:22:48.811 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 11:22:48.815 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/InstantPaymentBridge] is completed
+05-Nov-2024 11:37:29.474 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/InstantPaymentBridge]
+05-Nov-2024 11:37:29.479 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/InstantPaymentBridge] has started
+05-Nov-2024 11:37:30.044 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 11:37:30.045 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/InstantPaymentBridge] is completed
