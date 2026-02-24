@@ -23,6 +23,10 @@ import com.qcell.InstantPaymentBridge.service.QmoneyPaymentApiClient;
 import com.qcell.InstantPaymentBridge.service.QmoneyPaymentInterface;
 
 import okhttp3.Credentials;
+import okhttp3.FormBody;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -60,7 +64,7 @@ public class InstantPaymentsListener extends HttpServlet {
     String logDestination = "/usr/local/estashcore/security";
 
     // String SwitchURL = "http://172.16.10.177:9001/v1/iso20022/incoming";
-    String SwitchURL = "http://172.16.10.123:9001/v1/iso20022/incoming";
+    String SwitchURL = "http://172.16.10.177:9101/v1/iso20022/incoming";
 
     String keystorePassword = "qcellsl";
     String keyAlias = "qcellsl";
@@ -109,7 +113,7 @@ public class InstantPaymentsListener extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
 
-        if ((action != null || !action.trim().isEmpty())) {
+        if (action != null && !action.trim().isEmpty()) {
 
             if (action.equals("customerAlias") && receiverAlias != null && !receiverAlias.trim().isEmpty()) {
 
@@ -161,8 +165,42 @@ public class InstantPaymentsListener extends HttpServlet {
 
                     String signedDocumentRequest = signedXML.SignDocument1(paymentRequest);
 
+                    // obtain access token for IPS adapter
+                    OkHttpClient tokenClient = new OkHttpClient();
+                    RequestBody tokenRequestBody = new FormBody.Builder()
+                            .add("username", "qcell_user")
+                            .add("password", "1234")
+                            .add("grant_type", "password")
+                            .build();
+
+                    Request tokenRequest = new Request.Builder()
+                            .url("http://172.16.10.177:9101/v1/token")
+                            .post(tokenRequestBody)
+                            .addHeader("Content-Type", "application/x-www-form-urlencoded")
+                            .build();
+
+                    okhttp3.Response tokenResponse = tokenClient.newCall(tokenRequest).execute();
+
+                    String accessToken = null;
+                    if (tokenResponse.isSuccessful() && tokenResponse.body() != null) {
+                        String tokenJson = tokenResponse.body().string();
+                        com.google.gson.JsonObject tokenObject = new com.google.gson.Gson()
+                                .fromJson(tokenJson, com.google.gson.JsonObject.class);
+                        if (tokenObject != null && tokenObject.has("access_token")) {
+                            accessToken = tokenObject.get("access_token").getAsString();
+                        }
+                    }
+
+                    if (accessToken == null || accessToken.trim().isEmpty()) {
+                        logger.info("NS_LOGS: Failed to obtain access_token for push payment");
+                        response.setStatus(HttpServletResponse.SC_BAD_GATEWAY);
+                        response.getWriter().write("{ error: \"Failed to obtain access_token\" }");
+                        return;
+                    }
+
                     HashMap<String, String> headers = new HashMap<String, String>();
                     headers.put("Content-Type", "text/xml");
+                    headers.put("Authorization", "Bearer " + accessToken);
 
                     InstantPaymentInterface apiService = InstantPaymentApiClient.getInstantPaymentClient()
                             .create(InstantPaymentInterface.class);
@@ -424,7 +462,7 @@ public class InstantPaymentsListener extends HttpServlet {
                                 } else {
                                     logger.info("PAY_LOGS: Payment Failed" + paymentResponse.errorBody().charStream());
                                     System.out
-                                            .print("PAY_LOGS: Payment Failed" + loginResponse.errorBody().charStream());
+                                            .print("PAY_LOGS: Payment Failed" + paymentResponse.errorBody().charStream());
 
                       
                                 }
